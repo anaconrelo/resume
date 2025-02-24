@@ -30,6 +30,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'resume',
+    'resume_uploads',
 ]
 
 MIDDLEWARE = [
@@ -43,6 +46,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'resume.urls'
+X_FRAME_OPTIONS = 'ALLOWALL'
+
 
 TEMPLATES = [
     {
